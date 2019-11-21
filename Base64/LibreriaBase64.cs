@@ -12,7 +12,7 @@ namespace Base64
 
             string returnValue = Convert.ToBase64String(toEncodeAsBytes);
 
-            return returnValue;
+            return returnValue; 
         }
     }
 }
