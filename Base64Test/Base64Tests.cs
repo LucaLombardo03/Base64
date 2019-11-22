@@ -7,7 +7,7 @@ namespace Base64Test
     public class Base64Tests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void Base64Test1()
         {
             string risposta = LibreriaBase64.Base64();
             Assert.AreEqual("THVjYQ==", risposta);
